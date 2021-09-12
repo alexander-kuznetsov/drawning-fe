@@ -1,0 +1,9 @@
+.about__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 68px;
+    color: #111111;
+    max-width: 1103px;
+}

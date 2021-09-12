@@ -1,0 +1,7 @@
+.footer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    max-height: 470px;
+
+}

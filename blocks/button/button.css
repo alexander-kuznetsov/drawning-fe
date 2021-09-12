@@ -1,0 +1,15 @@
+.button {
+    border-radius: 8px;
+    width: 260px;
+    height: 54px;
+    cursor: url("../../images/button/pointer.svg"), pointer;
+    border: none;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.about__phones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    margin: 0 0 120px 0;
+}

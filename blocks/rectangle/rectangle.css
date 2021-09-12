@@ -1,0 +1,9 @@
+.rectangle {
+    background-color: #222222;
+    border-radius: 20px;
+    padding-right: 220px;
+    padding-left: 160px;
+    width: 100%;
+    max-width: 1420px;
+    box-sizing: border-box;
+}
