@@ -1,3 +1,9 @@
 .button_place_header {
     width: 240px;
 }
+@media screen and (max-width: 1200px){
+    .button_place_header {
+        height: 48px;
+        margin-bottom: 50px;
+    }
+}

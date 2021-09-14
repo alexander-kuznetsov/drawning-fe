@@ -7,3 +7,9 @@
     color: #111111;
     margin: 0 0 40px 0;
 }
+@media screen and (max-width: 1200px){
+    .functional-card__title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+}

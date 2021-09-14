@@ -2,3 +2,9 @@
     position: relative;
     top: 40px;
 }
+@media screen and (max-width: 1000px){
+    .header__phone {
+        width: 250px;
+        top: 120px
+    }
+}

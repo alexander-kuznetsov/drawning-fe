@@ -20,6 +20,7 @@
 @import url("../blocks/about/about.css");
 @import url("../blocks/about/__title/about__title.css");
 @import url("../blocks/about/__phones/about__phones.css");
+@import url("../blocks/about/__phone/about__phone.css");
 @import url("../blocks/cards/cards.css");
 @import url("../blocks/functional-card/functional-card.css");
 @import url("../blocks/functional-card/__pre-title/functional-card__pre-title.css");

@@ -9,3 +9,9 @@
     max-width: 500px;
     text-align: center;
 }
+@media screen and (max-width: 1200px){
+    .feedback__title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+}

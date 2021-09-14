@@ -8,3 +8,9 @@
     max-width: 460px;
     margin: 0;
 }
+@media screen and (max-width: 1200px){
+    .functional-card__description {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

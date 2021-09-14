@@ -8,3 +8,8 @@
 
     margin: 20px 0 174px 0;
 }
+@media screen and (max-width: 1200px){
+    .footer__subtitle {
+        margin-bottom: 130px;
+    }
+}

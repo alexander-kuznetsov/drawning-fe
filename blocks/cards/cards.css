@@ -1,5 +1,11 @@
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 540px));
+    grid-template-columns: repeat(2, minmax(300px, max-content));
     column-gap: 20px;
+    justify-items: center;
+}
+@media screen and (max-width: 1200px){
+    .cards {
+        column-gap: 10px;
+    }
 }

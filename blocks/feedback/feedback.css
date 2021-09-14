@@ -7,3 +7,9 @@
     align-items: center;
     padding: 60px;
 }
+@media screen and (max-width: 1200px){
+    .feedback {
+        max-width: 708px;
+        padding: 30px;
+    }
+}

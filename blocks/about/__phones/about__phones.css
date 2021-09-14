@@ -2,5 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
-    margin: 0 0 120px 0;
+}
+@media screen and (max-width: 1200px){
+    .about__phones {
+        grid-template-columns: repeat(3, 0.7fr);
+    }
 }

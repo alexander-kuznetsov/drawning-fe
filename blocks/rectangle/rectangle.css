@@ -7,3 +7,9 @@
     max-width: 1420px;
     box-sizing: border-box;
 }
+@media screen and (max-width: 1200px){
+    .rectangle {
+        padding-right: 45px;
+        padding-left: 50px;
+    }
+}

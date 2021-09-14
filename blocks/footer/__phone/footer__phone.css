@@ -1,4 +1,5 @@
-.footer__phone {
-    /*position: relative;*/
-    /*top: -30px;*/
+@media screen and (max-width: 1000px){
+    .footer__phone {
+        width: 250px;
+    }
 }

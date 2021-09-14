@@ -5,4 +5,10 @@
     border-radius: 50%;
     background: #FFFFFF;
     margin-top: 30px;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 1200px){
+    .header__logo {
+        margin-bottom: 50px;
+    }
 }
