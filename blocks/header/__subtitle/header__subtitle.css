@@ -16,3 +16,10 @@
         margin-bottom: 250px;
     }
 }
+@media screen and (max-width: 750px){
+    .header__subtitle {
+        margin-bottom: 50px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

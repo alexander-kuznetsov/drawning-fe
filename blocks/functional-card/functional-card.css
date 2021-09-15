@@ -10,3 +10,9 @@
         max-width: 349px;
     }
 }
+@media screen and (max-width: 750px){
+    .cards .functional-card:nth-child(2) {
+        max-width: 300px;
+        display: none;
+    }
+}

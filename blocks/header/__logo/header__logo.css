@@ -12,3 +12,8 @@
         margin-bottom: 50px;
     }
 }
+@media screen and (max-width: 750px){
+    .header__logo {
+        margin-top: 20px;
+    }
+}

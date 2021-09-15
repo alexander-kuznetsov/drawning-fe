@@ -9,3 +9,9 @@
         column-gap: 10px;
     }
 }
+@media screen and (max-width: 750px){
+    .cards {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+}

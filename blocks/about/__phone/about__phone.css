@@ -3,3 +3,11 @@
         width: 226px;
     }
 }
+@media screen and (max-width: 750px){
+    .about__phones .about__phone:nth-child(2) {
+        display: none;
+    }
+    .about__phones .about__phone:nth-child(3) {
+        display: none;
+    }
+}
