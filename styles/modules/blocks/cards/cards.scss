@@ -1,0 +1,17 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, max-content));
+    column-gap: 20px;
+    justify-items: center;
+}
+@media screen and (max-width: $tablet-resolution){
+    .cards {
+        column-gap: 10px;
+    }
+}
+@media screen and (max-width: $mobile-resolution){
+    .cards {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.functional-card {
+    background: #F8F8F8;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: $tablet-resolution){
+    .functional-card {
+        padding: 30px;
+        max-width: 349px;
+    }
+}
+@media screen and (max-width: $mobile-resolution){
+    .cards .functional-card:nth-child(2) {
+        max-width: 300px;
+        display: none;
+    }
+}

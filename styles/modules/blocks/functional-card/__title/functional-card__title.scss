@@ -1,0 +1,15 @@
+.functional-card__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #111111;
+    margin: 0 0 40px 0;
+}
+@media screen and (max-width: $tablet-resolution){
+    .functional-card__title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+}

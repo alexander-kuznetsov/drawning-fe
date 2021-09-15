@@ -1,0 +1,15 @@
+.functional-card__pre-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(17, 17, 17, 0.6);
+    margin: 0 0 20px 0;
+}
+@media screen and (max-width: $tablet-resolution){
+    .functional-card__pre-title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

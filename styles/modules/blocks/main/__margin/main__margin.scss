@@ -1,0 +1,8 @@
+.main__margin {
+    margin: 0 0 120px 0;
+}
+@media screen and (max-width: $tablet-resolution){
+    .main__margin {
+        margin-bottom: 70px;
+    }
+}

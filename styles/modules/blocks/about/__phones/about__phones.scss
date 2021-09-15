@@ -1,0 +1,16 @@
+.about__phones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+@media screen and (max-width: $tablet-resolution){
+    .about__phones {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: $mobile-resolution){
+    .about__phones {
+        grid-template-columns: 1fr 0 0;
+        column-gap: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.rectangle {
+    background-color: #222222;
+    border-radius: 20px;
+    padding-right: 220px;
+    padding-left: 160px;
+    width: 100%;
+    max-width: 1420px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: $tablet-resolution){
+    .rectangle {
+        padding-right: 45px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: $mobile-resolution){
+    .rectangle {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
