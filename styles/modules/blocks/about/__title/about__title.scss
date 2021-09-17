@@ -1,20 +1,16 @@
 .about__title {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 68px;
+    @include font($fontFamily, 600, 60px, 68px);
     color: #111111;
     max-width: 1103px;
 }
-@media screen and (max-width: $tablet-resolution){
+@media screen and (max-width: $tabletResolution){
     .about__title {
         font-size: 33px;
         line-height: 37px;
         max-width: 648px;
     }
 }
-@media screen and (max-width: $mobile-resolution){
+@media screen and (max-width: $mobileResolution){
     .about__title {
         font-size: 26px;
         line-height: 31px;

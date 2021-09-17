@@ -1,7 +1,7 @@
 .button_place_header-mobile {
     display: none;
 }
-@media screen and (max-width: $mobile-resolution){
+@media screen and (max-width: $mobileResolution){
     .button_place_header-mobile {
         display: block;
         width: 260px;

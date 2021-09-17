@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
 }
-@media screen and (max-width: $tablet-resolution){
+@media screen and (max-width: $tabletResolution){
     .about {
         padding-top: 70px;
     }

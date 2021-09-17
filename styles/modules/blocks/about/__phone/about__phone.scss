@@ -1,13 +1,10 @@
-@media screen and (max-width: $tablet-resolution){
+@media screen and (max-width: $tabletResolution){
   .about__phone {
     width: 226px;
   }
 }
-@media screen and (max-width: $mobile-resolution){
-  .about__phones .about__phone:nth-child(2) {
-    display: none;
-  }
-  .about__phones .about__phone:nth-child(3) {
-    display: none;
+@media screen and (max-width: $mobileResolution){
+  .about__phone {
+    width: 260px;
   }
 }

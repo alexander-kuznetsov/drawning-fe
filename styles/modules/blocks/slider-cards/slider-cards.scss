@@ -1,0 +1,8 @@
+.slider-cards {
+  margin-bottom: 70px;
+}
+@media screen and (min-width: $mobileResolution){
+  .slider-cards {
+    display: none;
+  }
+}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="page">
+
 <header class="header rectangle">
     <div>
         <img class="header__logo" src="./images/header/__logo/logo.svg" alt="логотип">
@@ -48,9 +49,54 @@
                 </p>
             </div>
         </div>
+        <div class="splide slider-cards">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <div class="splide__slide functional-card">
+                        <p class="functional-card__pre-title">
+                            AI
+                        </p>
+                        <h3 class="functional-card__title">
+                            Умный интелект приложения
+                        </h3>
+                        <p class="functional-card__description">
+                            С помощью AI приложение анализирует картины мастеров и современных практиков рисования,
+                            и достраивает картину за вас.
+                        </p>
+                    </div>
+
+                    <div class="splide__slide functional-card">
+                        <p class="functional-card__pre-title">
+                            Ч/Б и Цвет
+                        </p>
+                        <h3 class="functional-card__title">
+                            Рисуйте в любом стиле
+                        </h3>
+                        <p class="functional-card__description">
+                            Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <h2 class="about__title main__margin">
             Чик-чирик и ваша каляка превращается в изумительное произведение искусства.
         </h2>
+        <div class="splide slider-cards">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img class="about__phone" src="./images/about/__phones/1.png" alt="Телефон с нарисованной картинкой">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="about__phone" src="./images/about/__phones/2.png" alt="Телефон с нарисованной картинкой">
+                    </li>
+                    <li class="splide__slide">
+                        <img class="about__phone" src="./images/about/__phones/3.png" alt="Телефон с нарисованной картинкой">
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="about__phones main__margin">
             <img class="about__phone" src="./images/about/__phones/1.png" alt="Телефон с нарисованной картинкой">
             <img class="about__phone" src="./images/about/__phones/2.png" alt="Телефон с нарисованной картинкой">
@@ -78,6 +124,34 @@
                 <p class="functional-card__description">
                     Раз, два, три, больше нечего тут рассказать.
                 </p>
+            </div>
+        </div>
+        <div class="splide slider-cards">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <div class="splide__slide functional-card">
+                        <p class="functional-card__pre-title">
+                            Быстро
+                        </p>
+                        <h3 class="functional-card__title">
+                            Проблем с рисованием — нет
+                        </h3>
+                        <p class="functional-card__description">
+                            Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...
+                        </p>
+                    </div>
+                    <div class="splide__slide functional-card">
+                        <p class="functional-card__pre-title">
+                            Просто
+                        </p>
+                        <h3 class="functional-card__title">
+                            Нарисовали, преобразовали, сохранили
+                        </h3>
+                        <p class="functional-card__description">
+                            Раз, два, три, больше нечего тут рассказать.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <h2 class="about__title main__margin">
@@ -119,4 +193,6 @@
 
 </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="./js/slider.js"></script>
 </html>

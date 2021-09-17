@@ -3,14 +3,14 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
 }
-@media screen and (max-width: $tablet-resolution){
+@media screen and (max-width: $tabletResolution){
     .about__phones {
         grid-template-columns: repeat(3, 1fr);
+        column-gap: 15px;
     }
 }
-@media screen and (max-width: $mobile-resolution){
+@media screen and (max-width: $mobileResolution){
     .about__phones {
-        grid-template-columns: 1fr 0 0;
-        column-gap: 0;
+        display: none;
     }
 }

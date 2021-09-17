@@ -1,6 +1,11 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts/fonts.css";
 @import "./modules/variables.scss";
+@import url(https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css);
+@import "./modules/blocks/slider-cards/slider-cards.scss";
+@import "./modules/blocks/slider-cards/__pagination/slider-cards__pagination.scss";
+@import "./modules/blocks/slider-cards/__pagination-button/slider-cards__pagination-button.scss";
+@import "./modules/mixin.scss";
 
 @import "./modules/blocks/page/page.scss";
 @import "./modules/blocks/main/main.scss";

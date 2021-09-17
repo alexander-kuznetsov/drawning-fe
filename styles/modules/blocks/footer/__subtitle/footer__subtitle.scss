@@ -1,20 +1,19 @@
-.header__subtitle {
+.footer__subtitle {
     @include font($fontFamily, normal, 18px, 26px);
-    max-width: 450px;
     color: rgba(255, 255, 255, 0.7);
-    margin: 0 0 108px 0;
+
+    margin: 20px 0 174px 0;
 }
 @media screen and (max-width: $tabletResolution){
-    .header__subtitle {
-        font-size: 15px;
-        line-height: 20px;
-        margin-bottom: 250px;
+    .footer__subtitle {
+        margin-bottom: 130px;
     }
 }
 @media screen and (max-width: $mobileResolution){
-    .header__subtitle {
-        margin-bottom: 50px;
+    .footer__subtitle {
         font-size: 12px;
         line-height: 15px;
+        margin-bottom: 95px;
+        margin-top: 14px;
     }
 }

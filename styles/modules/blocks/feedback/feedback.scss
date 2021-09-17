@@ -8,13 +8,13 @@
     padding: 60px;
     box-sizing: border-box;
 }
-@media screen and (max-width: $tablet-resolution){
+@media screen and (max-width: $tabletResolution){
     .feedback {
         max-width: 708px;
         padding: 30px;
     }
 }
-@media screen and (max-width: $mobile-resolution){
+@media screen and (max-width: $mobileResolution){
     .feedback {
         max-width: 300px;
         padding: 20px;

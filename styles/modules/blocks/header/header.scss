@@ -1,9 +1,4 @@
-.header {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-}
-@media screen and (max-width: $mobile-resolution){
+@media screen and (max-width: $mobileResolution){
     .header {
         grid-template-columns: 1fr;
     }
