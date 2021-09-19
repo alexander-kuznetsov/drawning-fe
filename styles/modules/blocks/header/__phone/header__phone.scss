@@ -1,4 +1,6 @@
 .header__phone {
+    filter: $shadow;
+    border-radius: $shadowBorderRadius;
     position: relative;
     top: 40px;
 }

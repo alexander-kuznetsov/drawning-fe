@@ -1,3 +1,7 @@
+.about__phone {
+  filter: $shadow;
+  border-radius: $shadowBorderRadius;
+}
 @media screen and (max-width: $tabletResolution){
   .about__phone {
     width: 226px;
@@ -5,6 +9,8 @@
 }
 @media screen and (max-width: $mobileResolution){
   .about__phone {
+    filter: unset;
+    border-radius: unset;
     width: 260px;
   }
 }

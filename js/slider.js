@@ -1,14 +1,14 @@
-document.querySelectorAll('.slider-cards').forEach(carousel => new Splide(carousel, {
-    width: 750,
+document.querySelectorAll('.slider').forEach(carousel => new Splide(carousel, {
+    width: 300,
     autoplay: false,
     arrows: false,
     type: 'loop',
     perPage: 1,
     focus: 'center',
-    gap: 20,
+    gap: 30,
     autoWidth: true,
     classes: {
-        pagination: 'splide__pagination slider-cards__pagination',
-        page      : 'splide__pagination__page slider-cards__pagination-button'
+        pagination: 'splide__pagination slider__pagination',
+        page      : 'splide__pagination__page slider__pagination-button'
     }
 } ).mount());
