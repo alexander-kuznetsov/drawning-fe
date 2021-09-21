@@ -1,0 +1,8 @@
+.feedback__label_size_wide {
+    grid-column: 1/3;
+}
+@media screen and (max-width: $tabletResolution){
+    .feedback__label_size_wide {
+        grid-column: 1/2;
+    }
+}

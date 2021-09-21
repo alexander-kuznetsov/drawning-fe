@@ -1,0 +1,10 @@
+.feedback__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: $tabletResolution){
+    .feedback__form {
+        align-items: center;
+    }
+}

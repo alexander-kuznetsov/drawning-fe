@@ -1,0 +1,20 @@
+.button_place_feedback {
+    width: 194px;
+    justify-self: end;
+    grid-column: 1/3;
+    margin-top: 10px;
+}
+@media screen and (max-width: $tabletResolution){
+    .button_place_feedback {
+        align-self: center;
+        grid-column: 1/2;
+        width: 470px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: $mobileResolution){
+    .button_place_feedback {
+        width: 260px;
+        height: 44px;
+    }
+}

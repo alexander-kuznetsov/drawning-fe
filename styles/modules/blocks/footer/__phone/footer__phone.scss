@@ -1,0 +1,9 @@
+.footer__phone {
+    filter: $shadow;
+    border-radius: $shadowBorderRadius;
+}
+@media screen and (max-width: 1000px){
+    .footer__phone {
+        width: 250px;
+    }
+}

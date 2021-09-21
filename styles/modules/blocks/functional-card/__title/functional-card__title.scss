@@ -1,0 +1,12 @@
+.functional-card__title {
+    @include font($fontFamily, $commonTitleWeight, 32px, 38px);
+    color: #111111;
+    margin: 0 0 40px 0;
+}
+@media screen and (max-width: $tabletResolution){
+    .functional-card__title {
+        margin-bottom: 50px;
+        font-size: 26px;
+        line-height: 31px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer__subtitle {
+    @include font($fontFamily, normal, 18px, 26px);
+    color: rgba(255, 255, 255, 0.7);
+
+    margin: 20px 0 174px 0;
+}
+@media screen and (max-width: $tabletResolution){
+    .footer__subtitle {
+        margin-bottom: 130px;
+    }
+}
+@media screen and (max-width: $mobileResolution){
+    .footer__subtitle {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 95px;
+        margin-top: 14px;
+    }
+}

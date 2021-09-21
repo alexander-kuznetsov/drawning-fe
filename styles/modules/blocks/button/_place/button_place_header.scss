@@ -1,0 +1,15 @@
+.button_place_header {
+    width: 240px;
+    margin-bottom: 130px;
+}
+@media screen and (max-width: $tabletResolution){
+    .button_place_header {
+        height: 48px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: $mobileResolution){
+    .button_place_header {
+        display: none;
+    }
+}

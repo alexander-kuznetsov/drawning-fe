@@ -1,0 +1,13 @@
+.feedback__title {
+    @include font($fontFamily, $commonTitleWeight, 32px, 38px);
+    color: #111111;
+    margin: 0 0 20px 0;
+    max-width: 500px;
+    text-align: center;
+}
+@media screen and (max-width: $tabletResolution){
+    .feedback__title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+}

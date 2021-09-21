@@ -1,0 +1,9 @@
+.button_theme_dark {
+    background: #FFFFFF;
+    color: #222222;
+}
+.button_theme_dark:hover {
+    background: #FFFFFF;
+    opacity: 0.93;
+    transition: opacity 0.3s linear;
+}

@@ -1,0 +1,12 @@
+.functional-card__pre-title {
+    @include font($fontFamily, 500, 18px, 20px);
+    color: rgba(17, 17, 17, 0.6);
+    margin: 0 0 20px 0;
+}
+@media screen and (max-width: $tabletResolution){
+    .functional-card__pre-title {
+        margin-bottom: 12px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

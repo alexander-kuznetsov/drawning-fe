@@ -1,0 +1,57 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "./modules/variables.scss";
+@import url(https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css);
+@import "modules/blocks/slider/slider";
+@import "modules/blocks/slider/_type/slider_type_phone.scss";
+@import "modules/blocks/slider/__pagination/slider__pagination";
+@import "modules/blocks/slider/__pagination-button/slider__pagination-button";
+@import "./modules/mixin.scss";
+
+@import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/main/main.scss";
+@import "./modules/blocks/main/__margin/main__margin.scss";
+@import "./modules/blocks/button/button.scss";
+@import "./modules/blocks/button/_theme/button_theme_dark.scss";
+@import "./modules/blocks/button/_theme/button_theme_light.scss";
+@import "./modules/blocks/button/_place/button_place_feedback.scss";
+@import "./modules/blocks/button/_place/button_place_footer.scss";
+@import "./modules/blocks/button/_place/button_place_header.scss";
+@import "./modules/blocks/button/_place/button_place_header-mobile.scss";
+
+@import "./modules/blocks/rectangle/rectangle.scss";
+@import "./modules/blocks/rectangle/_place/rectangle_place_footer.scss";
+@import "./modules/blocks/rectangle/_place/rectangle_place_header.scss";
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__logo/header__logo.scss";
+@import "./modules/blocks/header/__phone/header__phone.scss";
+@import "./modules/blocks/header/__title/header__title.scss";
+@import "./modules/blocks/header/__subtitle/header__subtitle.scss";
+
+@import "./modules/blocks/about/about.scss";
+@import "./modules/blocks/about/__title/about__title.scss";
+@import "./modules/blocks/about/__phones/about__phones.scss";
+@import "modules/blocks/about/__phone/about__phone";
+@import "./modules/blocks/cards/cards.scss";
+@import "./modules/blocks/functional-card/functional-card.scss";
+@import "./modules/blocks/functional-card/__pre-title/functional-card__pre-title.scss";
+@import "./modules/blocks/functional-card/__title/functional-card__title.scss";
+@import "modules/blocks/functional-card/__title/_position/functional-card__title_position_right-up.scss";
+@import "modules/blocks/functional-card/__title/_position/functional-card__title_position_right-bottom.scss";
+@import "./modules/blocks/functional-card/__description/functional-card__description.scss";
+
+@import "./modules/blocks/feedback/feedback.scss";
+@import "./modules/blocks/feedback/__form/feedback__form.scss";
+@import "./modules/blocks/feedback/__fieldset/feedback__fieldset.scss";
+@import "./modules/blocks/feedback/__input/feedback__input.scss";
+@import "./modules/blocks/feedback/__input/_size/feedback__input_size_height.scss";
+@import "./modules/blocks/feedback/__label/feedback__label.scss";
+@import "./modules/blocks/feedback/__label/_size/feedback__label_size_wide.scss";
+@import "./modules/blocks/feedback/__subtitle/feedback__subtitle.scss";
+@import "./modules/blocks/feedback/__title/feedback__title.scss";
+
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__phone-wrapper/footer__phone-wrapper.scss";
+@import "./modules/blocks/footer/__phone/footer__phone.scss";
+@import "./modules/blocks/footer/__subtitle/footer__subtitle.scss";
+@import "./modules/blocks/footer/__title/footer__title.scss";

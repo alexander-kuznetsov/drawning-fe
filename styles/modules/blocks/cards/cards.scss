@@ -1,0 +1,16 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, max-content));
+    column-gap: 20px;
+    justify-items: center;
+}
+@media screen and (max-width: $tabletResolution){
+    .cards {
+        column-gap: 10px;
+    }
+}
+@media screen and (max-width: $mobileResolution){
+    .cards {
+        display: none;
+    }
+}

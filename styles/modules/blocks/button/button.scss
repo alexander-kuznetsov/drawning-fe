@@ -1,0 +1,24 @@
+.button {
+    border-radius: 8px;
+    width: 260px;
+    height: 54px;
+    cursor: url("../images/button/pointer.svg"), pointer;
+    border: none;
+    padding: 0;
+
+    @include font($fontFamily, $commonTitleWeight, 16px, 24px);
+    text-align: center;
+}
+@media screen and (max-width: $tabletResolution){
+    .button {
+        font-size: 14px;
+        line-height: 24px;
+        height: 48px;
+    }
+}
+@media screen and (max-width: $mobileResolution){
+    .button {
+        font-size: 12px;
+        height: 44px;
+    }
+}

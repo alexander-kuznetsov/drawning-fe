@@ -1,0 +1,17 @@
+.footer__phone-wrapper {
+    position: relative;
+    overflow: hidden;
+    top: -30px;
+    height: 100%;
+    max-height: 500px;
+}
+@media screen and (max-width: 1000px){
+    .footer__phone-wrapper {
+        max-height: 430px;
+    }
+}
+@media screen and (max-width: $mobileResolution){
+    .footer__phone-wrapper {
+        display: none;
+    }
+}

@@ -1,0 +1,8 @@
+.slider {
+  margin-bottom: 66px;
+}
+@media screen and (min-width: $mobileResolution){
+  .slider {
+    display: none;
+  }
+}
