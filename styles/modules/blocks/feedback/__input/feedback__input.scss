@@ -12,6 +12,13 @@
     overflow: hidden;
     outline: none;
 }
+.feedback__input:focus {
+    border: 1px solid #E4E4E4;
+    transition: opacity 0.3s linear;
+}
+.feedback__input:hover {
+    border: 1px solid #E4E4E4;
+}
 .feedback__input::placeholder{
     text-align: start;
     color: rgba(17, 17, 17, 0.3);

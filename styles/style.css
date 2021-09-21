@@ -2,7 +2,7 @@
 @import "../vendor/fonts/fonts.css";
 @import url(https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css);
 .slider {
-  margin-bottom: 70px;
+  margin-bottom: 66px;
 }
 
 @media screen and (min-width: 750px) {
@@ -21,7 +21,8 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
+  list-style-type: none;
 }
 
 .slider__pagination-button {
@@ -95,6 +96,7 @@
 .button_theme_dark:hover {
   background: #FFFFFF;
   opacity: 0.93;
+  transition: opacity 0.3s linear;
 }
 
 .button_theme_light {
@@ -103,6 +105,7 @@
 }
 
 .button_theme_light:hover {
+  transition: opacity 0.3s linear;
   opacity: 0.85;
 }
 
@@ -145,6 +148,7 @@
 }
 .button_place_header {
   width: 240px;
+  margin-bottom: 130px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -194,6 +198,15 @@
   .rectangle {
     padding-right: 20px;
     padding-left: 20px;
+  }
+}
+.rectangle_place_footer {
+  padding-right: 69px;
+}
+
+@media screen and (max-width: 750px) {
+  .rectangle_place_header {
+    border-radius: 10px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -360,6 +373,7 @@
     filter: unset;
     border-radius: unset;
     width: 260px;
+    height: 522px;
   }
 }
 .cards {
@@ -385,12 +399,14 @@
   padding: 40px;
   box-sizing: border-box;
   max-width: 540px;
+  min-height: 308px;
 }
 
 @media screen and (max-width: 1200px) {
   .functional-card {
     padding: 30px;
     max-width: 349px;
+    min-height: 284px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -411,6 +427,7 @@
 
 @media screen and (max-width: 1200px) {
   .functional-card__pre-title {
+    margin-bottom: 12px;
     font-size: 15px;
     line-height: 20px;
   }
@@ -427,8 +444,23 @@
 
 @media screen and (max-width: 1200px) {
   .functional-card__title {
+    margin-bottom: 50px;
     font-size: 26px;
     line-height: 31px;
+  }
+}
+.functional-card__title_position_right-up {
+  margin-bottom: 78px;
+}
+
+@media screen and (max-width: 1200px) {
+  .functional-card__title_position_right-up {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .functional-card__title_position_right-bottom {
+    margin-bottom: 19px;
   }
 }
 .functional-card__description {
@@ -521,6 +553,15 @@
   outline: none;
 }
 
+.feedback__input:focus {
+  border: 1px solid #E4E4E4;
+  transition: opacity 0.3s linear;
+}
+
+.feedback__input:hover {
+  border: 1px solid #E4E4E4;
+}
+
 .feedback__input::placeholder {
   text-align: start;
   color: rgba(17, 17, 17, 0.3);
@@ -557,6 +598,7 @@
   font-size: 16px;
   line-height: 24px;
   color: rgba(17, 17, 17, 0.6);
+  text-align: center;
   margin: 0 0 100px 0;
 }
 

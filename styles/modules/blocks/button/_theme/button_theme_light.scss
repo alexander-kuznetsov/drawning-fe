@@ -3,5 +3,6 @@
     color: #FFFFFF;
 }
 .button_theme_light:hover {
+    transition: opacity 0.3s linear;
     opacity: 0.85;
 }

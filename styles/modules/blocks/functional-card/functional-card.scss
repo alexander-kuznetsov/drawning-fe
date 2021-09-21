@@ -4,11 +4,13 @@
     padding: 40px;
     box-sizing: border-box;
     max-width: 540px;
+    min-height: 308px;
 }
 @media screen and (max-width: $tabletResolution){
     .functional-card {
         padding: 30px;
         max-width: 349px;
+        min-height: 284px;
     }
 }
 @media screen and (max-width: $mobileResolution){

@@ -8,7 +8,7 @@
 </head>
 <body class="page">
 
-<header class="header rectangle">
+<header class="header rectangle rectangle_place_header">
     <div>
         <img class="header__logo" src="./images/header/__logo/logo.svg" alt="логотип">
         <h1 class="header__title">
@@ -20,7 +20,7 @@
         <button class="button button_theme_dark button_place_header">Подробнее</button>
     </div>
     <img class="header__phone" src="images/header/__phone/iphone-12--white.png" alt="IPHONE">
-    <button class="button button_theme_dark button_place_header-mobile">Подробнее</button>
+    <button type="button" class="button button_theme_dark button_place_header-mobile">Подробнее</button>
 </header>
 <main class="main">
     <section class="about">
@@ -41,7 +41,7 @@
                 <p class="functional-card__pre-title">
                     Ч/Б и Цвет
                 </p>
-                <h3 class="functional-card__title">
+                <h3 class="functional-card__title functional-card__title_position_right-up">
                     Рисуйте в любом стиле
                 </h3>
                 <p class="functional-card__description">
@@ -118,7 +118,7 @@
                 <p class="functional-card__pre-title">
                     Просто
                 </p>
-                <h3 class="functional-card__title">
+                <h3 class="functional-card__title functional-card__title_position_right-bottom">
                     Нарисовали, преобразовали, сохранили
                 </h3>
                 <p class="functional-card__description">
@@ -159,7 +159,7 @@
         </h2>
     </section>
     <section class="feedback main__margin">
-        <h4 class="feedback__title">Хотите нам что-то посоветовать?</h4>
+        <h2 class="feedback__title">Хотите нам что-то посоветовать?</h2>
         <p class="feedback__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
         <form name="feedback-form" class="feedback__form">
             <fieldset class="feedback__fieldset">
@@ -167,32 +167,31 @@
                     <input name="name" class="feedback__input" type="text" placeholder="Ваше Имя" required>
                 </label>
                 <label class="feedback__label">
-                    <input name="email" class="feedback__input" type="text" placeholder="Контактный Email" required>
+                    <input name="email" class="feedback__input" type="email" placeholder="Контактный Email" required>
                 </label>
                 <label class="feedback__label feedback__label_size_wide">
                     <textarea name="message" class="feedback__input feedback__input_size_height" placeholder="Сообщение" required></textarea>
                 </label>
-                <button class="button button_theme_light button_place_feedback">Оставить заявку</button>
+                <button type="submit" class="button button_theme_light button_place_feedback">Оставить заявку</button>
             </fieldset>
         </form>
     </section>
 </main>
-<footer class="footer rectangle">
+<footer class="footer rectangle rectangle_place_footer">
     <div>
-        <h4 class="footer__title">
+        <h2 class="footer__title">
             Хотите скачать приложение?
-        </h4>
+        </h2>
         <p class="footer__subtitle">
             Качайте в ЭпСтор и ГуглПлэй.
         </p>
-        <button class="button button_theme_dark button_place_footer">Уже скоро!</button>
+        <button type="button" class="button button_theme_dark button_place_footer">Уже скоро!</button>
     </div>
     <div class="footer__phone-wrapper">
         <img class="footer__phone" src="images/header/__phone/iphone-12--white.png" alt="IPHONE">
     </div>
-
 </footer>
-</body>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="./js/slider.js"></script>
+</body>
 </html>
